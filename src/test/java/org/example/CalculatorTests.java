@@ -26,8 +26,8 @@ public class CalculatorTests {
 
     @Test
     public void testDivide() {
-        assert Calculator.divide(8, 2) == 4;
-        assert Calculator.divide(0, 1) == 0;
-        assert Calculator.divide(-1, -1) == 1;
+        assert Calculator.quotient(8, 2) == 4;
+        assert Calculator.quotient(0, 1) == 0;
+        assert Calculator.quotient(-1, -1) == 1;
     }
 }

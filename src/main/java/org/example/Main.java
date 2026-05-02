@@ -11,13 +11,10 @@ public class Main {
         System.out.print("Enter the second number: ");
         int b = scanner.nextInt();
 
-        // Use the static methods you wrote in the Calculator class
-        // to assign proper values to the four variables below
-        // (instead of 0)
-        int sum = 0;
-        int difference = 0;
-        int product = 0;
-        int quotient = 0;
+        int sum = Calculator.add(20, 3);
+        int difference = Calculator.subtract(11, 5);
+        int product = Calculator.multiply(7, 3);
+        int quotient = Calculator.quotient(20, 4);
 
         System.out.println("The sum is " + sum);
         System.out.println("The difference is " + difference);
